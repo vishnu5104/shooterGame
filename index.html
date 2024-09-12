@@ -1,16 +1,25 @@
-<!DOCTYPE html><head>
-<title>Little JS Platforming Game</title>
-<meta name=viewport content=width=device-width,height=device-height,initial-scale=1,maximum-scale=1>
-<meta name=apple-mobile-web-app-capable content=yes>
-<meta name=mobile-web-app-capable content=yes>
-<link rel=icon type=image/png href=../favicon.png>
-</head><body>
-
-<script src=../../dist/littlejs.js?192></script>
-<script src=gameObjects.js?192></script>
-<script src=gameCharacter.js?192></script>
-<script src=gamePlayer.js?192></script>
-<script src=gameEffects.js?192></script>
-<script src=gameLevel.js?192></script>
-<script src=gameLevelData.js?192></script>
-<script src=game.js?192></script>
+<head>
+<title>Space Huggers</title>
+<link rel=icon type=image/x-icon href='favicon.ico'/>
+<meta name="title" content="Space Huggers"></meta>
+<meta name="author" content="Frank Force"></meta>
+<meta name="description" content="A run and gun roguelike platformer with destructible environments"></meta>
+<meta name=viewport content='width=device-width,initial-scale=1,user-scalable=0'>
+<meta charset=utf-8>
+</head>
+<body>
+<script src=engine/engineUtil.js></script>
+<script src=engine/engineDebug.js></script>
+<script src=engine/engine.js></script>
+<script src=engine/engineObject.js></script>
+<script src=engine/engineWebGL.js></script>
+<script src=engine/engineDraw.js></script>
+<script src=engine/engineInput.js></script>
+<script src=engine/engineAudio.js></script>
+<script src=engine/engineTileLayer.js></script>
+<script src=engine/engineParticle.js></script>
+<script src=appObjects.js></script>
+<script src=appCharacters.js></script>
+<script src=appEffects.js></script>
+<script src=appLevel.js></script>
+<script src=app.js></script>
